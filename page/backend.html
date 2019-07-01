@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>backend</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/backend.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="	sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="	sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+	<h1>Bienvenue dans l'espace de gestion</h1>
+
+
+
+<form>
+	<!--Nom du proprio-->
+	<div class="form-group">
+    <label for="exampleFormControlInput1">Nom</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Prénom</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1">
+  </div>
+
+
+	<!--Nom de la matière -->
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Nom de la matière</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Exemple: math, JS, HTML&CSS...">
+  </div>
+  		<!--Valeur de la matière-->
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Valeur de a matière en pourcentage:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Exemple: 35%">
+  </div>
+  		<!--Liste des matières-->
+  	<div class="form-group">
+    <label for="exampleFormControlSelect2">Liste des matières:</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1: math</option>
+      <option>2: CSS</option>
+      <option>3: HTML</option>
+      <option>4: Anglais</option>
+      <option>5: JavaScript</option>
+    </select>
+  </div>
+  		<!--Action a faire sur les matières sélectionner-->
+  	<button type="button" class="btn btn-outline-danger">Supprimer</button>
+  		<!--Ajout de la matière-->
+ 
+  <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Ajout matière
+  </button>
+  		<!--Ce qui se passe dans la div-->
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <div class="form-group">
+    <label for="exampleFormControlInput1">Nom de la matière:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Exemple: math, html...">
+  </div>
+  	<div class="form-group">
+    <label for="exampleFormControlInput1">Valeur de la matière:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Exemple: 35%">
+  </div>
+  <button type="button" class="btn btn-success">Ajouter la matière</button>
+  </div>
+</div>
+</form>
+</div>
+</body>
+</html>

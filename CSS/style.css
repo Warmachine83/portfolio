@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url(../img/foret.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Annonceur{
+	text-align: center;
+	text-decoration: none;
+}
+
+div{
+	text-align: center;
+	text-decoration: none;
+    color: white;
+}
+
+
+h1{
+    color:#24f0ff;
+}
+
+#corps{
+    width: 600px;
+    color: #b5b5b5;
+    margin-top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px #24f0ff solid;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+
+#corps:before {
+    content: '';
+    background: url('../img/foret.jpg') fixed 0 0;
+    -webkit-filter: blur(5px);
+           -moz-filter: blur(5px);
+            -ms-filter: blur(5px);
+             -o-filter: blur(5px);
+                filter: blur(5px);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+}
+
+.texte{
+    padding: 20px;
+    font-size: 35px;
+
+}
+
+.tp2{
+	transition: 1s;
+    color: white;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.tp2:hover{
+	transform: scale(1.2);
+}
+
+a{
+    color: white !important;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        zoom: 75%;
+    }
+}

@@ -1,0 +1,25 @@
+header{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 8%;
+	font-size: 30px;
+	color: white;
+}
+body{
+	background-image: url(../img/foret.jpg);
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+div{
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 170%;
+	margin-left: 5%;
+}
+
+h2{
+	text-decoration: underline;
+}

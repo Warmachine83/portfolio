@@ -1,0 +1,33 @@
+header{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 8%;
+	font-size: 30px;
+	color: white;
+}
+body{
+	background-image: url(../img/foret.jpg);
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+div{
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 170%;
+	margin-left: 5%;
+}
+
+#tableaucapacité{
+	float: right;
+	margin-top: -15%;
+	margin-right: 7%;
+	height: 500px;
+}
+
+#exppro{
+	margin-top: 10%;
+}
